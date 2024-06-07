@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script src="java.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+       <div class="judul"> Registrasi</div> 
+       <form action="#">
+        <div class="user-details">
+           <div class="input-box">
+            <span class="details">Nama Lengkap</span>
+            <input type="text" placeholder="Masukkan Nama Anda" required>
+           </div> 
+           <div class="input-box">
+            <span class="details">NIM</span>
+            <input type="text" placeholder="Masukkan NIM anda" required>
+           </div> 
+           <div class="input-box">
+            <span class="details">Jurusan</span>
+            <input type="text" placeholder="Masukkan Jurusan Anda" required>
+           </div> 
+           <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Masukkan Email Anda" required>
+           </div> 
+           <div class="input-box">
+            <span class="details">Universitas</span>
+            <input type="text" placeholder="Masukkan Nama Universitas" required>
+           </div> 
+           <div class="input-box">
+            <span class="details">Mata Kuliah</span>
+            <input type="text" placeholder="Masukkan Matkul Fav" required>
+           </div> 
+        </div>
+        <div class="gender-details">
+            <input type="radio" name="gender" id="dot-1">
+            <input type="radio" name="gender" id="dot-2">
+            <input type="radio" name="gender" id="dot-3">
+            <span class="gender-title">Jenis kelamin</span>
+            <div class="category">
+                <label for="dot-1">
+                    <span class="dot one"></span>
+                    <span class="gender">Pria</span>
+                </label>
+                <label for="dot-2">
+                    <span class="dot two"></span>
+                    <span class="gender">Wanita</span>
+                </label>
+                <label for="dot-3">
+                    <span class="dot three"></span>
+                    <span class="gender">Rahasia</span>
+                </label>
+            </div>
+        </div>
+        <div class="button">
+            <input type="submit" name="Registrasi">
+        </div>
+       </form>
+    </div>
+</body>
+</html>
